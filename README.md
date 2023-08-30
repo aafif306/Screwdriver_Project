@@ -62,7 +62,7 @@ Upload an image to the board by copying it from your computer to the board via t
 
 ## **Step 9**: 
 Use this command to run the program on your image:
-***imagenet.py --model={<u>the directory with the model in it (should be "classification")</u>}/resnet18.onnx --input_blob=input_0 --output_blob=output_0 --labels={the directory with the model in it (should be "classification")}/labels.txt {location of the image (should be "classification" or the filepath to classification)} {output filepath/name, if it is in classification, just use the file name}***
+*imagenet.py --model={**the directory with the model in it (should be "classification")**}/resnet18.onnx --input_blob=input_0 --output_blob=output_0* *--labels={**the directory with the model in it (should be "classification")**}/labels.txt* *{**location of the image (should be "classification" or the filepath to classification)**}* *{**output filepath/name, if it is in classification, just use the file name**}*
 
 ## **Step 10**: 
 View the results by opening the image, the results will be displayed as a label of the class and the percentage of accuracy. The terminal will display the class and percentage of accuracy, but to view the actual image, you need to open the image itself from Visual Studio Code.
