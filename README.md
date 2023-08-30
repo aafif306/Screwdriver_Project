@@ -68,4 +68,4 @@ Use this command to run the program on your image:
 View the results by opening the image, the results will be displayed as a label of the class and the percentage of accuracy. The terminal will display the class and percentage of accuracy, but to view the actual image, you need to open the image itself from Visual Studio Code.
 
 
-[View a video explanation here](video link)
+[View a video explanation here](https://youtu.be/v-4qu-XoG-I)
